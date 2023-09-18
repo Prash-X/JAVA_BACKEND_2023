@@ -1,16 +1,12 @@
 package Java_LLD_1.Access_Modifiers_1.Package_1;
-
-public class Student
+/*Access-Modifiers Article Link: https://www.geeksforgeeks.org/access-modifiers-java/ */
+public class Student //Class containing all access modifiers
 {
     protected String name;
     public String UniversityName;
-
     private String CollegeAddress = "Hubli, Karnataka";
-
     protected double percentage;
-
     int batch_year = 2021; //default access-modfier;
-
     public Student(String name, String UniversityName, double percentage)
     {
         this.name = name;
@@ -38,6 +34,10 @@ public class Student
     public void display_percentage()
     {
         System.out.println("Percentage: "+percentage);
+    }
+    public Student()
+    {
+
     }
 
 }
