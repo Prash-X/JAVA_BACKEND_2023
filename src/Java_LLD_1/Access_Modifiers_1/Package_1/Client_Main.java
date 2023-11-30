@@ -10,5 +10,7 @@ public class Client_Main
         s1.display_university();
         s1.display_percentage();
         s1.display_address();
+
+        System.out.println("H");
     }
 }
